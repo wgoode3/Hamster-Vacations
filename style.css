@@ -1,0 +1,74 @@
+/* body {
+    background-color: aqua;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.green {
+    background-color: mediumseagreen;
+}
+
+#red {
+    background-color: tomato;
+}
+
+#hamcar {
+    width: 300px;
+    margin: 20px 350px;
+}
+
+p {
+    width: 250px;
+    display: inline-block;
+    background-color: lightcyan;
+    padding: 20px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+form {
+    background-color: mediumturquoise;
+    padding: 100px;
+    margin-top: 20px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+    background-color: mediumvioletred;
+    background-color: orangered;
+    background: linear-gradient(-15deg, orangered, mediumvioletred);
+    color: white;
+    font-family: 'Gochi Hand', cursive;
+}
